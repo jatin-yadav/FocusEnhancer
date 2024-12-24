@@ -7,8 +7,8 @@ function App() {
       <h1 className="text-6xl text-white font-bold underline py-5">
         Focus Enhancer
       </h1>
-      <div className="flex">
-        <div className="w-1/2">
+      <div className="flex flex-col sm:flex-row">
+        <div className="w-full sm:w-1/2">
           <div className="mb-6 p-4 bg-gray-800 rounded text-white">
             <h2 className="text-xl font-bold mb-2">Steps to Play</h2>
             <ol className="list-decimal list-inside space-y-2">
@@ -21,7 +21,7 @@ function App() {
             </ol>
           </div>
         </div>
-        <div className="w-1/2 flex justify-center items-center">
+        <div className="w-full sm:w-1/2  flex justify-center items-center">
           <GridPlayer />
         </div>
       </div>
