@@ -129,6 +129,14 @@ const GridPlayer = () => {
                     Start
                 </button>
             </div>
+            <GridBox
+                numbers={numbers}
+                clickedNumbers={clickedNumbers}
+                clickedForSequence={clickedForSequence}
+                clickedErrorNumbers={clickedErrorNumbers}
+                handleNumberClick={handleNumberClick}
+                gridlength={gridlength}
+            />
 
             {/* Display the grid */}
             {isGridVisible && (
